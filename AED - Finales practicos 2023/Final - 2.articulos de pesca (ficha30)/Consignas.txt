@@ -1,0 +1,15 @@
+
+2. (Tipo: Parcial Recuperatorio) - Artículos de Pesca
+Una empresa de venta de artículos de pesca deportiva mantiene información sobre los distintos artículos que tiene a la venta. Por cada Artículo se registran los datos siguientes: número de identificación (un entero), descripción del artículo (una cadena terminada en punto y con palabras separadas con un blanco), precio de venta, lugar de origen del artículo (un valor entre 0 y 24 incluidos, por ejemplo: 0: Argentina, 1: Canadá, etc.) y tipo de artículo (un número entero entre 0 y 29 incluidos, para indicar (por ejemplo): 0: anzuelo, 1: caña, etc.). Se pide definir una clase Articulo con los atributos que se indicaron, y un programa completo con menú de opciones para hacer lo siguiente:
+
+1_Cargar los datos de n objetos de tipo Articulo en un arreglo de objetos (cargue n por teclado). Valide los campos que sea necesario. Puede hacer la carga en forma manual, o puede generar los datos en forma automática (con valores aleatorios) (pero si hace carga manual, TODA la carga debe ser manual, y si la hace automática entonces TODA debe ser automática). El arreglo debe crearse de forma que siempre quede ordenado de menor a mayor, según el número de identificación de los artículos, y para hacer esto debe aplicar el algoritmo de inserción ordenada con búsqueda binaria. Se considerará directamente incorrecta la solución basada en cargar el arreglo completo y ordenarlo al final, o aplicar el algoritmo de inserción ordenada pero con búsqueda secuencial.
+
+2_Mostrar el arreglo creado en el punto 1, a razón de  un registro por línea.  Muestre solo los registros cuyo lugar de origen sea diferente del valor p que se carga por teclado.
+
+3_Buscar en el arreglo creado en el punto 1 un registro en el cual el número de identificación del artículo sea igual a num (cargar num por teclado).  Si existe, mostrar por pantalla el valor del campo descripción. Si no existe, informar con un mensaje y retornar la cadena "No existe.". La búsqueda debe detenerse al encontrar el primer registro que coincida con el patrón pedido.
+
+4_A partir del arreglo, crear un archivo de registros en el cual se copien los datos de todos los registros cuyo tipo no sea igual al valor tip que se carga por teclado.
+
+5_Mostrar el archivo creado en el punto anterior, a razón de un registro por línea en la pantalla. Muestre al final del listado dos líneas adicionales: una con la cantidad de registros que se mostraron, y otra con el precio de venta promedio de todos los registros que se mostraron.
+
+6_Procesar la cadena retornada en el punto 3, y determinar cuantas de las palabras de esa cadena comenzaban con vocal (minúscula o mayúscula) y tenían algún dígito en cualquier otra posición.

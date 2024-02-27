@@ -1,0 +1,18 @@
+8. (Tipo: Examen Final) - Complejo de Cines
+Un complejo de cines quiere realizar un análisis de las ventas del último mes sobre las películas que expuso en la cartelera. Por cada Entrada vendida se conoce: número, nombre de la película, tipo de proyección (1 - Normal, 2 - 3D, 3 - IMAX, 4 - IMAX 3D), clasificación de INCAA (0 - ATP, 1 - M13, 2 - M16, 3 - M18), precio de la entrada y día de venta (valor de 1 a 31).
+
+La empresa tiene el detalle de las entradas vendidas guardadas en un archivo  "tickets.dat", el cual debe ser cargado en un vector en forma ordenada por el número de la entrada.
+
+El programa debe usar un menú de opciones para hacer lo siguiente:
+
+1_Generar el vector de objetos a partir del archivo indicado, manteniendo el orden por número de entrada.
+
+2_Listar todas las entradas vendidas en un día x ingresado por teclado.
+
+3_Determinar el total vendido para cada tipo de proyección y clasificación de la película (matriz de acumulación).
+
+4_Grabar en un archivo de texto el nombre de la película y la clasificación de todas aquellas ventas para un tipo de proyección t ingresada por teclado.
+
+5_Determinar cuál es el tipo de proyección que más recaudó en el mes.
+
+6_Grabar en un segundo archivo las ventas de entradas para un día d y una clasificación c ambos ingresados por teclado.
